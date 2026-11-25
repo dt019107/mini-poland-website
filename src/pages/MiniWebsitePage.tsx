@@ -22,7 +22,7 @@ export function MiniWebsitePage() {
         {/* 2. Hero 1: Autumn Campaign with Autoplay Video */}
         <CampaignHero
           id="hero-fall"
-          videoSrc="/videos/hero-video.mp4"
+          videoSrc={`${import.meta.env.BASE_URL}videos/hero-video.mp4`}
           imageSrc={heroFallImg}
           headline="MOVE INTO A MINI THIS FALL."
           italicSubtitle="Discover our latest benefits offer and make your dream come true!"
